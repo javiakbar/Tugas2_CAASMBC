@@ -9,3 +9,14 @@ jam_kerja = float(input("Total jam kerja: "))
 upah_per_jam = 0
 if golongan == 'A':
     upah_per_jam = 5000
+elif golongan == 'B':
+    upah_per_jam = 7000
+elif golongan == 'C':
+    upah_per_jam = 8000
+elif golongan == 'D':
+    upah_per_jam = 10000
+else:
+  print("Golongan yang dimasukkan salah")
+
+if jam_kerja > 48:
+    uang_lembur = (jam_kerja - 48) * 4000
