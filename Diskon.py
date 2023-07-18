@@ -13,3 +13,7 @@ elif (harga_belanja >= 500000) and (harga_belanja < 1000000):
 elif (harga_belanja > 1000000): 
     harga_total = harga_belanja - (0.3 * harga_belanja)
     print("Selamat Anda mendapat diskon 30%")
+else :
+    harga_total = harga_belanja
+
+print("Total bayar: Rp", round(harga_total, 2))
