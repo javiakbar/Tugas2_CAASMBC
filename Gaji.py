@@ -20,3 +20,7 @@ else:
 
 if jam_kerja > 48:
     uang_lembur = (jam_kerja - 48) * 4000
+gaji = upah + uang_lembur
+
+print("")
+print(nama_karyawan, "menerima gaji Rp.", gaji,"/minggu")
